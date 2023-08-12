@@ -4,7 +4,7 @@
   "description": "social-media Project",
   "main": "api/index.js",
   "scripts": {
-    "start": "node server",
+    "start": "pm2 start server",
     "dev": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
